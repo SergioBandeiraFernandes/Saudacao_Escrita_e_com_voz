@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula_24_Javascript</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">Saudação</h1>
+    <label for="nome">Digite seu nome:</label><input type="text" id="nome">
+    <label for="hora">Selecione a hora</label>
+    <select id="hora">
+        <option value="">Selecione</option>
+        <option value="8">Manhã (8h)</option>
+        <option value="14">Tarde (14h)</option>
+        <option value="20">Noite (20h)</option>
+    </select>
+    <button onclick="mostrarSaudacao()">Mostrar Saudação</button>
+    <button onclick="limparCampos()">Limpar Campos</button>
+    <p id="mensagem"></p>
+    
+</body>
+</html>
